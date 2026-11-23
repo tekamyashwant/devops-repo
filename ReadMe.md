@@ -7,3 +7,7 @@
 ### git switch -c <branchname> <sourcebranchname>
 
     checking switch without commit
+
+### git push origin dev
+
+    adding dev branch of git local dev to remote dev
