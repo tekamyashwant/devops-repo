@@ -18,3 +18,14 @@ f904ee4 docs:technical readMe doc has added.
 6391f91 feat:Added cart functionality.
 6482e04 Modified : Added login.js and signup file
 be205f2 Added the login and signup functionality for order management
+
+## Getting ready with cherry-pick
+
+to avoid merge confict
+commands:
+git checkout -b release/order-managementV2.0 master
+git cherry-pick commit_id1 commit_id2
+
+## to pull remote master/origin to locale master
+
+git pull origin master
